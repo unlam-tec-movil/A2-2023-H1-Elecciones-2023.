@@ -21,7 +21,7 @@ import javax.net.ssl.X509TrustManager
 @HiltViewModel
 class MainViewModel @Inject constructor(val service: GetNewKitty) : ViewModel() {
 
-    final var DEFAULT: String = "https://icons.iconarchive.com/icons/iconsmind/outline/512/Cat-icon.png"
+    var DEFAULT: String = "https://icons.iconarchive.com/icons/iconsmind/outline/512/Cat-icon.png"
 
     // Create a LiveData with a String
     val kittyUrl: MutableLiveData<String> by lazy {

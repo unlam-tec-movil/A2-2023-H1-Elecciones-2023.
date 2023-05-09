@@ -16,7 +16,7 @@ class KittiesRestRepo @Inject constructor(builder: Builder) : KittiesRepo {
         val kitties = call.body()
 
         if (call.isSuccessful) {
-            return kitties?.get(0)?.url ?: "no kitties avaiables"
+            return kitties?.get(0)?.url ?: "no kitties available"
         }
 
         return "error on call"

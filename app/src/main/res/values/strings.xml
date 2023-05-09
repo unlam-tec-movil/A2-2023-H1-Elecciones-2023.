@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Elecciones</string>
     <string name="action_settings">Preferencias</string>
+    <string name="action_reset_data">Eliminar mi info</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Primer Fragment</string>
     <string name="second_fragment_label">Segundo Fragment</string>
@@ -15,8 +16,8 @@
     <!-- Home Screen -->
     <string name="home_title">Home</string>
     <!-- Candidates Screen -->
-    <string name="candidates_title">Candidates</string>
+    <string name="candidates_title">Candidatos</string>
     <!-- Survey Screen -->
-    <string name="survey_title">Survey</string>
+    <string name="survey_title">Encuesta</string>
 
 </resources>

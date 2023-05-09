@@ -7,7 +7,6 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import okhttp3.OkHttpClient
-import retrofit2.Retrofit
 import retrofit2.Retrofit.Builder
 import retrofit2.converter.gson.GsonConverterFactory
 import java.security.SecureRandom
@@ -23,7 +22,7 @@ class HttpClientModule {
 
     @Provides
     fun retrofitBuilder(): Builder {
-        return Retrofit.Builder()
+        return Builder()
             .client(OkHttpClient.Builder().apply { ignoreAllSSLErrors() }.build())
             .addConverterFactory(GsonConverterFactory.create())
     }

@@ -34,10 +34,10 @@ import kotlinx.coroutines.launch
 @AndroidEntryPoint
 class MainActivity : /*AppCompatActivity()*/ ComponentActivity() {
 
-    private val mainViewModel: MainViewModel by viewModels()
-
-    private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityMainBinding
+//    private val mainViewModel: MainViewModel by viewModels()
+//
+//    private lateinit var appBarConfiguration: AppBarConfiguration
+//    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
